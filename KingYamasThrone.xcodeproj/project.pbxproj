@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAABE8561F7C6BC400BD1CA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABE8551F7C6BC400BD1CA0 /* AppDelegate.swift */; };
+		CAABE8581F7C6BC400BD1CA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABE8571F7C6BC400BD1CA0 /* ViewController.swift */; };
+		CAABE85B1F7C6BC400BD1CA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAABE8591F7C6BC400BD1CA0 /* Main.storyboard */; };
+		CAABE85D1F7C6BC400BD1CA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAABE85C1F7C6BC400BD1CA0 /* Assets.xcassets */; };
+		CAABE8601F7C6BC400BD1CA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAABE85E1F7C6BC400BD1CA0 /* LaunchScreen.storyboard */; };
+		CAABE86B1F7C6BC400BD1CA0 /* KingYamasThroneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABE86A1F7C6BC400BD1CA0 /* KingYamasThroneTests.swift */; };
+		CAABE8761F7C6BC400BD1CA0 /* KingYamasThroneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAABE8751F7C6BC400BD1CA0 /* KingYamasThroneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAABE8671F7C6BC400BD1CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAABE84A1F7C6BC400BD1CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAABE8511F7C6BC400BD1CA0;
+			remoteInfo = KingYamasThrone;
+		};
+		CAABE8721F7C6BC400BD1CA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAABE84A1F7C6BC400BD1CA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAABE8511F7C6BC400BD1CA0;
+			remoteInfo = KingYamasThrone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CAABE8521F7C6BC400BD1CA0 /* KingYamasThrone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingYamasThrone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAABE8551F7C6BC400BD1CA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAABE8571F7C6BC400BD1CA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAABE85A1F7C6BC400BD1CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAABE85C1F7C6BC400BD1CA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAABE85F1F7C6BC400BD1CA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAABE8611F7C6BC400BD1CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAABE8661F7C6BC400BD1CA0 /* KingYamasThroneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingYamasThroneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAABE86A1F7C6BC400BD1CA0 /* KingYamasThroneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingYamasThroneTests.swift; sourceTree = "<group>"; };
+		CAABE86C1F7C6BC400BD1CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAABE8711F7C6BC400BD1CA0 /* KingYamasThroneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KingYamasThroneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAABE8751F7C6BC400BD1CA0 /* KingYamasThroneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingYamasThroneUITests.swift; sourceTree = "<group>"; };
+		CAABE8771F7C6BC400BD1CA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAABE84F1F7C6BC400BD1CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE8631F7C6BC400BD1CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE86E1F7C6BC400BD1CA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAABE8491F7C6BC400BD1CA0 = {
+			isa = PBXGroup;
+			children = (
+				CAABE8541F7C6BC400BD1CA0 /* KingYamasThrone */,
+				CAABE8691F7C6BC400BD1CA0 /* KingYamasThroneTests */,
+				CAABE8741F7C6BC400BD1CA0 /* KingYamasThroneUITests */,
+				CAABE8531F7C6BC400BD1CA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAABE8531F7C6BC400BD1CA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAABE8521F7C6BC400BD1CA0 /* KingYamasThrone.app */,
+				CAABE8661F7C6BC400BD1CA0 /* KingYamasThroneTests.xctest */,
+				CAABE8711F7C6BC400BD1CA0 /* KingYamasThroneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAABE8541F7C6BC400BD1CA0 /* KingYamasThrone */ = {
+			isa = PBXGroup;
+			children = (
+				CAABE8551F7C6BC400BD1CA0 /* AppDelegate.swift */,
+				CAABE8571F7C6BC400BD1CA0 /* ViewController.swift */,
+				CAABE8591F7C6BC400BD1CA0 /* Main.storyboard */,
+				CAABE85C1F7C6BC400BD1CA0 /* Assets.xcassets */,
+				CAABE85E1F7C6BC400BD1CA0 /* LaunchScreen.storyboard */,
+				CAABE8611F7C6BC400BD1CA0 /* Info.plist */,
+			);
+			path = KingYamasThrone;
+			sourceTree = "<group>";
+		};
+		CAABE8691F7C6BC400BD1CA0 /* KingYamasThroneTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAABE86A1F7C6BC400BD1CA0 /* KingYamasThroneTests.swift */,
+				CAABE86C1F7C6BC400BD1CA0 /* Info.plist */,
+			);
+			path = KingYamasThroneTests;
+			sourceTree = "<group>";
+		};
+		CAABE8741F7C6BC400BD1CA0 /* KingYamasThroneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAABE8751F7C6BC400BD1CA0 /* KingYamasThroneUITests.swift */,
+				CAABE8771F7C6BC400BD1CA0 /* Info.plist */,
+			);
+			path = KingYamasThroneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAABE8511F7C6BC400BD1CA0 /* KingYamasThrone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAABE87A1F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThrone" */;
+			buildPhases = (
+				CAABE84E1F7C6BC400BD1CA0 /* Sources */,
+				CAABE84F1F7C6BC400BD1CA0 /* Frameworks */,
+				CAABE8501F7C6BC400BD1CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KingYamasThrone;
+			productName = KingYamasThrone;
+			productReference = CAABE8521F7C6BC400BD1CA0 /* KingYamasThrone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAABE8651F7C6BC400BD1CA0 /* KingYamasThroneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAABE87D1F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThroneTests" */;
+			buildPhases = (
+				CAABE8621F7C6BC400BD1CA0 /* Sources */,
+				CAABE8631F7C6BC400BD1CA0 /* Frameworks */,
+				CAABE8641F7C6BC400BD1CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAABE8681F7C6BC400BD1CA0 /* PBXTargetDependency */,
+			);
+			name = KingYamasThroneTests;
+			productName = KingYamasThroneTests;
+			productReference = CAABE8661F7C6BC400BD1CA0 /* KingYamasThroneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAABE8701F7C6BC400BD1CA0 /* KingYamasThroneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAABE8801F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThroneUITests" */;
+			buildPhases = (
+				CAABE86D1F7C6BC400BD1CA0 /* Sources */,
+				CAABE86E1F7C6BC400BD1CA0 /* Frameworks */,
+				CAABE86F1F7C6BC400BD1CA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAABE8731F7C6BC400BD1CA0 /* PBXTargetDependency */,
+			);
+			name = KingYamasThroneUITests;
+			productName = KingYamasThroneUITests;
+			productReference = CAABE8711F7C6BC400BD1CA0 /* KingYamasThroneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAABE84A1F7C6BC400BD1CA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = rlouie;
+				TargetAttributes = {
+					CAABE8511F7C6BC400BD1CA0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					CAABE8651F7C6BC400BD1CA0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAABE8511F7C6BC400BD1CA0;
+					};
+					CAABE8701F7C6BC400BD1CA0 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CAABE8511F7C6BC400BD1CA0;
+					};
+				};
+			};
+			buildConfigurationList = CAABE84D1F7C6BC400BD1CA0 /* Build configuration list for PBXProject "KingYamasThrone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAABE8491F7C6BC400BD1CA0;
+			productRefGroup = CAABE8531F7C6BC400BD1CA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAABE8511F7C6BC400BD1CA0 /* KingYamasThrone */,
+				CAABE8651F7C6BC400BD1CA0 /* KingYamasThroneTests */,
+				CAABE8701F7C6BC400BD1CA0 /* KingYamasThroneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAABE8501F7C6BC400BD1CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAABE8601F7C6BC400BD1CA0 /* LaunchScreen.storyboard in Resources */,
+				CAABE85D1F7C6BC400BD1CA0 /* Assets.xcassets in Resources */,
+				CAABE85B1F7C6BC400BD1CA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE8641F7C6BC400BD1CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE86F1F7C6BC400BD1CA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAABE84E1F7C6BC400BD1CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAABE8581F7C6BC400BD1CA0 /* ViewController.swift in Sources */,
+				CAABE8561F7C6BC400BD1CA0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE8621F7C6BC400BD1CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAABE86B1F7C6BC400BD1CA0 /* KingYamasThroneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAABE86D1F7C6BC400BD1CA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAABE8761F7C6BC400BD1CA0 /* KingYamasThroneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAABE8681F7C6BC400BD1CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAABE8511F7C6BC400BD1CA0 /* KingYamasThrone */;
+			targetProxy = CAABE8671F7C6BC400BD1CA0 /* PBXContainerItemProxy */;
+		};
+		CAABE8731F7C6BC400BD1CA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAABE8511F7C6BC400BD1CA0 /* KingYamasThrone */;
+			targetProxy = CAABE8721F7C6BC400BD1CA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAABE8591F7C6BC400BD1CA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAABE85A1F7C6BC400BD1CA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAABE85E1F7C6BC400BD1CA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAABE85F1F7C6BC400BD1CA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAABE8781F7C6BC400BD1CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAABE8791F7C6BC400BD1CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAABE87B1F7C6BC400BD1CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAABE87C1F7C6BC400BD1CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThrone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThrone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAABE87E1F7C6BC400BD1CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingYamasThrone.app/KingYamasThrone";
+			};
+			name = Debug;
+		};
+		CAABE87F1F7C6BC400BD1CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThroneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThroneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KingYamasThrone.app/KingYamasThrone";
+			};
+			name = Release;
+		};
+		CAABE8811F7C6BC400BD1CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingYamasThrone;
+			};
+			name = Debug;
+		};
+		CAABE8821F7C6BC400BD1CA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KingYamasThroneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.KingYamasThroneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KingYamasThrone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAABE84D1F7C6BC400BD1CA0 /* Build configuration list for PBXProject "KingYamasThrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAABE8781F7C6BC400BD1CA0 /* Debug */,
+				CAABE8791F7C6BC400BD1CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAABE87A1F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThrone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAABE87B1F7C6BC400BD1CA0 /* Debug */,
+				CAABE87C1F7C6BC400BD1CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAABE87D1F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThroneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAABE87E1F7C6BC400BD1CA0 /* Debug */,
+				CAABE87F1F7C6BC400BD1CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAABE8801F7C6BC400BD1CA0 /* Build configuration list for PBXNativeTarget "KingYamasThroneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAABE8811F7C6BC400BD1CA0 /* Debug */,
+				CAABE8821F7C6BC400BD1CA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAABE84A1F7C6BC400BD1CA0 /* Project object */;
+}
